@@ -1,0 +1,21 @@
+{
+    "name": "codeneon",
+    "displayName": "codeneon",
+    "description": "A theme for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "CodeNeon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/CodeNeon-color-theme.json"
+            }
+        ]
+    }
+}
